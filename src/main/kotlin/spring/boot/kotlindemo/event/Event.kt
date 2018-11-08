@@ -16,9 +16,7 @@ data class Event(
         var limitOfEnrollment: Int,
         var offline: Boolean,
         var free: Boolean,
-        var eventStatus: EventStatus = EventStatus.DRAFT
-
-)
+        var eventStatus: EventStatus = EventStatus.DRAFT)
 
 enum class EventStatus {
     DRAFT, PUBLISHED, BEGAN_ENROLLMEND, CLOSED_ENROLLMENT, STARTED, ENDED

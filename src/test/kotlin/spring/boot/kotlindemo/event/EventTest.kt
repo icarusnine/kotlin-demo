@@ -21,8 +21,7 @@ class EventTest {
                 maxPrice = 200,
                 limitOfEnrollment = 10,
                 offline = false,
-                free = false
-        )
+                free = false)
 
         //When & Then
         assertThat(event.basePrice).isEqualTo(100)
