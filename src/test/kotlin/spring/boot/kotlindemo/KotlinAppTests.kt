@@ -1,4 +1,4 @@
-package spring.boot.kotlindeom
+package spring.boot.kotlindemo
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class KotlindeomApplicationTests {
+class KotlinAppTests {
 
     @Test
     fun contextLoads() {
